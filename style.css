@@ -1,0 +1,316 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+#header{
+    height: 100px;
+    width: 1030px;
+
+}
+html {
+    scroll-behavior:smooth;
+}
+#container1{
+    padding: 20px;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#maincontainer1{
+   height: 350px;
+   width: 1030px;
+}
+#maincintainer2{
+    height: 350px;
+    padding-top: 35px;
+}
+#maincontainer3{
+      height: 350px;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-lVbc2TS_I5lhMMLii_PO0Ra0WFsjMLa71IgQbVSJg&s=10);
+      background-size:cover;
+ 
+}
+#paragraph{
+    padding: 40px;
+}
+#paragrapg2{
+  padding: 40px;
+}
+#maincontainer4{
+    height: 280px;
+    width: 1030px;
+    text-align: center;
+    padding-top: 100px;
+}
+#maincontainer5{
+    height: 200px;
+    width: 1030px;
+    display: flex;
+}
+#maincontainer6{
+    height: 150px;
+    width: 1030px;
+}
+#maincontainer7{
+    height: 300px;
+    width: 1030px;
+    display: flex;
+}
+#normalcontent2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01R1dVS6Uebf96Q5LO-ogxIBvPKpo3aG-PH_z8yhiJw&s=10);
+    background-size: cover;
+}
+button{
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    height: 30px;
+}
+#maincontainer8{
+    height: 150px;
+    width: 1030px;
+}
+#maincontainer9{
+    height: 120px;
+    width: 1030px;
+    text-align: center;
+}
+#maincontainer10{
+    height: 200px;
+    width: 1030px;
+    display: flex;
+}
+/* #featuredfood2{
+    background-color: burlywood;
+}
+#featuredfood3{
+    background-color: cadetblue;
+}
+#featuredfood4{
+    background-color: chartreuse;
+    
+
+}
+#featuredfood5{
+    background-color: chocolate;
+} */
+
+#maincontainer11{
+    height: 200px;
+    width: 1030px;
+    display: flex;
+}
+.mybox1 {
+    display: none;
+}
+/* #featuredfood6{
+    background-color: aqua;
+} */
+/* #featuredfood7{
+    background-color: aquamarine;
+}
+#featuredfood8{
+    background-color: rgb(197, 18, 18);
+}
+#featuredfood9{
+    background-color: blue;
+}
+#featuredfood10{
+    background-color: blueviolet;
+} */
+/* #featuredfood11{
+    background-color: chocolate;
+} */
+
+
+#maincontainer12{
+    height: 210px;
+    width: 1030px;
+}
+
+#maincontainer13{
+    height: 400px;
+    width: 1030px;
+    display: flex;
+}
+#imageid123{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUkUPvtfdk36LW8n_XsfdKNLX3A1MkC7xQt0aDcrzEA&s=10);
+  background-size: cover;
+  border-radius: 20px;
+}
+#maincontainer14{
+    height: 180px;
+    width: 1030px;
+}
+#maincontainer15{
+    height: 330px;
+    width: 1030px;
+    display: flex;
+}
+#image9135{
+    background-size: cover;
+    border-radius: 30px;
+}
+#maincontainer16{
+    height: 170px;
+    width: 1030px;
+}
+#maincontainer17{
+    height: 200px;
+    width: 1030px;
+    text-align: center;
+}
+#maincontainer18{
+    height: 30px;
+    width: 1030px;
+}
+#maincontainer19{
+    height: 300px;
+    width: 1030px;
+    display: flex;
+}
+
+
+
+/* Base state */
+.guchru {
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+
+
+/* Selected state */
+.guchru.selected {
+  background-color: red;
+}
+
+.guchru.selected {
+    border: 3px solid red;
+}
+
+/* start */
+
+/* .popup{
+    width:300px;
+    padding:20px;
+    border:1px solid gray;
+    border-radius:10px;
+}
+
+#image9135{
+    width:200px;
+    height:200px;
+    background-size:cover;
+    background-position:center;
+    margin:auto;
+}
+
+.quantity{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.quantity button{
+    width:35px;
+    height:35px;
+    cursor:pointer;
+} */
+
+/* end,,,,, */
+
+/* start these to popup ,after click buynow button  */
+.popup{
+
+    display:none;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.5);
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+.popup-content{
+
+    width:350px;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+.popup-content img{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:10px;
+
+}
+
+.quantityBox{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin:20px;
+
+}
+
+.quantityBox button{
+
+    width:40px;
+
+    height:40px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+
+#closePopup{
+
+    position:absolute;
+
+    top:10px;
+
+    right:20px;
+
+    font-size:30px;
+
+    cursor:pointer;
+}
+/* end these to popup ,after click buynow button  */
